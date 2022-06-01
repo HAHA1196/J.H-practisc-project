@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+}
+header{
+        display: flex;
+        justify-content: space-between;
+        background: #e7eeea;
+        padding: 20px;
+        box-shadow: rgba(100, 100, 100, 0.5) 0px 0px 50px 0px;
+        .logo{
+            width: 300px;
+            height: 60px;
+        }
+        .page3Menu{
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                list-style-type: none;
+                a{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #6e8273;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: #37523d;
+                }
+            }
+        }
+}
+.myContain{
+        // border: 1px solid #000;
+        margin: 0 auto;
+        padding: 80px 0;
+        width: 800px;
+        text-align: center;
+        .containTitle{
+            // border: 1px solid #000;
+            font-size: 20px;
+            text-align: left;
+            width: 600px;
+            margin: 0 auto;
+        }
+        .myPic{
+            // border: 1px solid #000;
+            width: 600px;
+            margin: 0 auto;
+        }
+        p{
+            text-align: left;
+            width: 600px;
+            margin: 0 auto;
+            padding: 25px 0 ;
+            font-size: 20px;
+        }
+}
+footer{
+    background: #37523d;
+    .footerMenu{
+        // border: 2px solid #000;
+        display: flex;
+        margin: 0 auto;
+        width: 600px;
+        text-align: center;
+        padding: 20px 0;
+        li{
+            // border: 2px solid #000;
+            list-style-type: none;
+            margin: 0 auto;
+            width: 400px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
+            a:hover{
+                color: #74c488;
+            }
+        }
+    }
+
+}

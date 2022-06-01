@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Serif TC', serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #e7eeea;
+  padding: 20px;
+  -webkit-box-shadow: rgba(100, 100, 100, 0.5) 0px 0px 50px 0px;
+          box-shadow: rgba(100, 100, 100, 0.5) 0px 0px 50px 0px;
+}
+
+header .logo {
+  width: 300px;
+  height: 60px;
+}
+
+header .page3Menu {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .page3Menu li {
+  list-style-type: none;
+}
+
+header .page3Menu li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6e8273;
+  text-decoration: none;
+}
+
+header .page3Menu li a:hover {
+  color: #37523d;
+}
+
+.myContain {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 800px;
+  text-align: center;
+}
+
+.myContain .containTitle {
+  font-size: 20px;
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.myContain .myPic {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.myContain p {
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px 0;
+  font-size: 20px;
+}
+
+footer {
+  background: #37523d;
+}
+
+footer .footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .footerMenu li {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 400px;
+}
+
+footer .footerMenu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+footer .footerMenu li a:hover {
+  color: #74c488;
+}
+/*# sourceMappingURL=styles.css.map */
